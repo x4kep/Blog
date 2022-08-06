@@ -6,5 +6,12 @@ Notes for javascript concepts idea is to create
 
 
 Clean Code
+  ACID ( Atomic, Consisten, Isolation, Durable ) BackEnd 
+  KISS 
+  DRY
+  Dependency injection
+  SOLID
+  
+
 Pure functions, Side effect, State mutation, Event propagation
 
