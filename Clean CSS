@@ -3,15 +3,24 @@ List of top things to keep eye on when writing css
 1) Livestyle guide
 2) Story book
 3) Avoid global and element selectors
-   -Oke for sesetting and normalizing
 4) Omit overly specific selectors
-   -Specifity 
-   -Don't chain classes
-   -Avoid usign id
 5) Use semantic class names ( BEM )
 6) Don't tie css to closely to markup structure
-7) 
+7) Remove !important
+8) Don't use inline styles
+9) Don't use id for styling
+10) Write inside out ( order of properties | 39% randomly | 45% Grouped by type | 2% By line length | 14% Alphabetical | https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/ )
+11) DRY
+12) Grouping comments  
+13) Use shorthand
+14) 0px into 0
 
+JOB NOTICES
+1) id - Camelcase 
+2) daDd, daChx, daIn
+3) Order propertioes of elements ( normal, props, v-model, @events )
+4) Use ` or ' or " in html ?
+5) 
 
 Components ( BEM )
 .component-name { }
@@ -23,6 +32,7 @@ Prefix
 .l-layout        ( Layout rules )
 .is-state-type   ( State rule )
 .js-action-name  ( Non-styled Javascript Hooks )
+.u-utility       ( utility | padding | margins | flex-box )
 
 
 
