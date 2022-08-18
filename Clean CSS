@@ -13,6 +13,11 @@ List of top things to keep eye on when writing css
 7) 
 
 
+Components ( BEM )
+.component-name { }
+.component-name--modifier-name { }
+.component-name__sub-object { }
+.component-name__sub-object--modifier-name { }
 
 Prefix
 .l-layout        ( Layout rules )
