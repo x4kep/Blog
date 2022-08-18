@@ -1,1 +1,29 @@
+List of top things to keep eye on when writing css
 
+1) Livestyle guide
+2) Story book
+3) Avoid global and element selectors
+   -Oke for sesetting and normalizing
+4) Omit overly specific selectors
+   -Specifity 
+   -Don't chain classes
+   -Avoid usign id
+5) Use semantic class names ( BEM )
+6) Don't tie css to closely to markup structure
+7) 
+
+
+
+Prefix
+.l-layout        ( Layout rules )
+.is-state-type   ( State rule )
+.js-action-name  ( Non-styled Javascript Hooks )
+
+
+
+
+Resources
+  https://www.sitepoint.com/golden-guidelines-for-writing-clean-css/
+  https://cssguidelin.es/
+  https://philipwalton.com/articles/css-architecture/
+  https://nicolasgallagher.com/about-html-semantics-front-end-architecture/
