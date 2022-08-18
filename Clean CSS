@@ -14,6 +14,7 @@ List of top things to keep eye on when writing css
 12) Grouping comments  
 13) Use shorthand
 14) 0px into 0
+15) Project organization (
 
 JOB NOTICES
 1) id - Camelcase 
@@ -41,8 +42,12 @@ Outside in:
   Typography Properties (font-size, font-family, text-align, text-transform)
   Misc Properties (cursor, overflow, z-index)
 
+![alt text](https://uploads.toptal.io/blog/image/124488/toptal-blog-image-1508916189170-ed6bb78ed11838baffb6fb815ae727ca.png)
+
 Resources
   https://www.sitepoint.com/golden-guidelines-for-writing-clean-css/
   https://cssguidelin.es/
   https://philipwalton.com/articles/css-architecture/
   https://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+  https://github.com/coreybruyere/bem-real-world-examples
+
