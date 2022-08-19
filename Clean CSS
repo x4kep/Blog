@@ -12,11 +12,15 @@ List of top things to keep eye on when writing css
 10) Write inside out ( order of properties | 39% randomly | 45% Grouped by type | 2% By line length | 14% Alphabetical | https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/ )
 11) DRY
 12) Grouping comments  
-13) Use shorthand
+13) Use shorthand 
 14) 0px into 0
 15) Project organization
-16) Use HTML & CSS Validators 
+16) Use HTML & CSS Validators ( Set in pipeline )
+17) Use REM for fonts ( responsive after we change settings )
+18) Use variables ( Colors | flexbox | spacing ) 
 
+TRICKS
+1) Margin auto and flex box interaction ( item will automatically extend its specified margin to occupty the extra space in the flex container.
 JOB NOTICES
 1) id - Camelcase 
 2) daDd, daChx, daIn
