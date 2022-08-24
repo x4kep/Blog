@@ -1,0 +1,43 @@
+1) Idempotence 
+___________________________________________________________________________________________
+Function that always return what we expected to do pure function
+Call it 1000 times and give same result its important because system become predictable 
+
+// Uses external console.log ( communitate with outside world )
+function notGood(num) { 
+  console.log(num);
+}
+
+function notGood(num) { 
+  return Math.random(num);
+}
+
+// Delete user from Database is Idempotence
+// Http GET requestion ( always return same result )
+// Call it self
+Math.abs(Math.abs(-50))
+
+2) Pure function
+- 1 Task
+- Return Statment
+- Pure
+- No shared state
+- Immutable State
+- Composable
+- Predictable
+
+3) Imprerative vs Declarative
+
+4) Immutability
+
+5) Hight order functions and Closures
+
+6) Curring
+
+7) Partial Application
+
+8) Memoization
+
+9) Compose and Pipe
+
+10) Arity
