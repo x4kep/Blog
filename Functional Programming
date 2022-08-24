@@ -29,6 +29,8 @@ Math.abs(Math.abs(-50))
 3) Imprerative vs Declarative
 
 4) Immutability
+-Structural changes
+-Any data i receve its not mine, i will always copy it
 
 5) Hight order functions and Closures
 
