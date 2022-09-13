@@ -1,0 +1,16 @@
+1) Deep copying vs. shallow copying
+  A deep copy means that all of the values of the new variable are copied and disconnected from the original variable.
+  A shallow copy means that certain (sub-)values are still connected to the original variable.
+  WHY
+  We usually want to copy value when working with data so we don't have side effects ( use for Pure function )
+  HOW
+  Deep copy 
+   -Use JSON.parse(JSON.stringify(object))
+   -Use some framework ( lodash - cloneDeep ) ( AngularJS - angular.copy )
+  Shallow copy
+   -Spred operator {...obj}
+   -arr1.slice(0)
+   -arr1.concat(arr2)
+   -Object.create({}, obj}
+   -Object.assign({}, obj}
+   -Array.from(ar1)
