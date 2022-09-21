@@ -36,6 +36,13 @@ Spoiler: at its base, JavaScript is a synchronous, blocking, single-threaded lan
     - Method outside object will refer too Windows object. 
       ( inside window global object) - Avoid arrow function because this will ref to global window
     - uses this Value of the enclosing lexical scope
+    ___
+    https://www.javascripttutorial.net/es6/when-you-should-not-use-arrow-functions/#:~:text=An%20arrow%20function%20doesn't,that%20uses%20the%20arguments%20object.
+    1) Event handlers
+    2) Object method ??????
+    3) Prototype methods
+    4) Functions that use the arguments object
+    
 
 5) Bind, Apply, Call 
    - Give us control of what should this be inside of calling function
