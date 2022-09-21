@@ -29,3 +29,14 @@ Spoiler: at its base, JavaScript is a synchronous, blocking, single-threaded lan
    -find
    -findIndex
    -every
+   
+ 4) Arrow funnction THIS
+    - Method inside object if method is diffined using arrow function this will refering to that Object.
+      ( innside of Object ) - Good use of arrow avoid using _self = this 
+    - Method outside object will refer too Windows object. 
+      ( inside window global object) - Avoid arrow function because this will ref to global window
+    - uses this Value of the enclosing lexical scope
+
+5) Bind, Apply, Call 
+   - Give us control of what should this be inside of calling function
+
