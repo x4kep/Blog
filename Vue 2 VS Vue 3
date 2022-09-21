@@ -1,0 +1,42 @@
+Vue 3 
+ Composition API vs Optional API
+ ---------------------------------
+ Vue 3 favor Composition API ( Easier to share functions between components ) mixing removed
+ - Changes in Vue lifecycle
+ 
+ Options API  | Hook inside ( setup )
+ ----------------------------------------------
+ | beforeCreate | notNeeded ( setup replace it )
+ | created      | notNeeded ( setup replace it )
+ | beforeMount  | onBeforeMounted
+ ...
+ 
+ Teleport
+ ------------------------------------------
+ <example-component>
+  <teleport to="#teleport-target">
+   <pop-up />
+  </teleport>
+ </example-component>
+
+<div id="teleport-target"></div>
+
+Fragments
+-----------------------------------------
+Enables to declare multiple roots in a template
+<template>
+  <header></header>
+  <main></main>
+  <footer></footer>
+</template>
+
+Initialization code
+-----------------------------------------------
+createApp 
+We can now create multiple application from vue instance so we can configure each app instance separated
+
+
+
+ 
+ 
+ 
